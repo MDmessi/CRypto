@@ -1,0 +1,17 @@
+Theory
+Malicious logic encompasses a range of harmful software, including viruses, worms, Trojans, and 
+other forms of malware. In this section, we delve into the theoretical foundations of malicious 
+logic. We explain how malware spreads and operates, including its methods of infection, 
+replication, and payload delivery. Additionally, we discuss the motivations behind creating and 
+distributing malicious software, as well as the techniques used by cybercriminals to evade 
+detection and exploit vulnerabilities.
+Code
+@echo off
+set "fileToDelete=path_to_file_to_delete"
+if exist "%fileToDelete%" (
+ del "%fileToDelete%"
+ echo File deleted successfully.
+) else (
+ echo The file does not exist or the path is incorrect.
+)
+pause
